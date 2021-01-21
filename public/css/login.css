@@ -1,0 +1,43 @@
+.row{
+    margin: 0
+}
+.loginLeft {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #01b170;
+}
+.loginRight {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2e2e2;
+}
+.loginRight form {
+    width: 40%;
+}
+.loginLeft img {
+    width: 250px;
+    height: auto;
+}
+@media(max-width:768px) {
+    .loginLeft {
+        height: 15vh;
+        padding-top:1vh;
+        padding-bottom:1vh;
+        display: block;
+    }
+    .loginLeft img {
+        margin-left: 15px;
+        height: 13vh;
+        width: auto;
+    }
+    .loginRight {
+        height: 85vh;
+    }
+    .loginRight form {
+        width: 80%;
+    }
+}

@@ -1,0 +1,43 @@
+.body {
+    background-color: #e2e2e2;
+}
+.navbar {
+    background-color: #01b170;
+}
+tbody tr {
+    cursor: pointer;
+}
+tbody tr:hover {
+    background-color: rgb(207, 207, 207);
+}
+.card-body > .list-group {
+    min-height: 400px;
+}
+ul li {
+    color: white;
+}
+.item-gray li {
+    background-color: gray;
+}
+.item-yellow li {
+    background-color: rgb(160, 160, 0);
+}
+.item-green li {
+    background-color: green;
+}
+.actions .fa-trash {
+    color: red;
+    position: absolute;
+    right: 0;
+    margin: 0 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.actions .fa-edit {
+    color: blue;
+    position: absolute;
+    right: 0;
+    margin: 0 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
